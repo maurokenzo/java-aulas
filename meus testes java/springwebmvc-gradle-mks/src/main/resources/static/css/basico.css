@@ -1,0 +1,204 @@
+﻿/* XXXXXXXXXX (basico.css) É RESPONSÁVEL POR (FORMULÁRIO - TABELAS - BOX MENSAGEM) DA ESTRUTURA DO SISTEMA XXXXXXXXXX */
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DA APLICAÇÃO
+---------------------------------------------------------------------------- */
+
+.blocoForm {
+	margin:0;
+	padding:10px;
+}
+.headerForm {
+	width:auto;
+	height:30px;
+	clear:both;
+	margin-bottom:15px;
+	padding:5px 10px;
+}
+.formTitle {
+	padding:10px 0 10px 0;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+}
+.formLegend {
+	padding:10px 0 10px 0;
+	float:right;
+	font-size:10px;
+	font-weight:bold;
+}
+
+/* -------------------------------------------------------------------------
+	FORMULÁRIO DE COLUNA SIMPLES
+---------------------------------------------------------------------------- */
+
+
+.formColunaSimples {
+	width:100%;
+	clear:both;
+}
+.formColunaSimples div {
+	padding:8px;
+	margin-bottom:4px;
+	float:left;
+	width:98%;
+}
+
+.formColunaSimples div label {
+	padding:0 3px 0 0;
+	display:block;
+	float:left;
+	width:250px;
+	text-align:right;
+}
+.formColunaSimples div span {
+	float:left;
+	padding:5px 3px 0 0;
+	display:block;
+}
+.formColunaSimples div .dados {
+	padding:3px 3px 0 0;
+	margin:5px 5px 0 5px;
+	display:block;
+	float:left;
+	text-align:left;
+}
+.formColunaSimples div textarea {
+	width:400px;
+}
+.formColunaSimples div .inputTexto {
+	width:400px;
+}
+
+.botaoFormBusca {
+	float:left;
+	width:20px;
+	height:20px;
+	margin:0 2px;
+}
+.botaoFormInfo {
+	float:left;
+	width:20px;
+	height:20px;
+	margin:0 2px;
+}
+.formLineButtons {
+	width:100%;
+	clear:both;
+	padding-top:10px;
+}
+.formButton, .formButtonAction {
+	margin: 0 5px 10px 0;
+	padding:5px 17px 5px 17px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.formErrorMessage {
+	display: none;
+	padding-top: 0.5em;
+}
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE TABELA/GRID
+---------------------------------------------------------------------------- */
+
+.blocoGrid {
+	margin:0;
+	padding:10px 0;
+}
+.tableForm {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.tableForm thead tr th {
+	border-width: 1px 1px 0 0;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight:bold;
+	vertical-align:middle;
+}
+.tableForm tbody tr td img {
+	margin:0 5px;
+}
+.tableForm tbody tr td {
+	text-align:center;
+	padding:5px;
+	height:25px;
+}
+.tableForm tfoot tr td {
+	text-align:center;
+	padding:10px;
+	font-weight:bold;
+}
+.tableForm tbody tr:hover {
+	cursor:pointer;
+}
+.SearchResults {
+	padding:20px 10px 20px 10px;
+	font-weight:bold;
+	clear:both;
+}
+
+.colunaAcao {
+    vertical-align: middle;
+    width: 100px;
+}
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE PAGINAÇÃO
+---------------------------------------------------------------------------- */
+
+ul.pagination {
+    display: block;
+    margin: 10px 0;
+}
+ul.pagination li {
+    display: inline;
+}
+ul.pagination ul {
+    display: inline;
+}
+ul.pagination a {
+    margin: 0 10px;
+}
+ul.pagination a:hover {
+	text-decoration:none;
+	margin:0;
+    padding: 3px 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+ul.pagination .actualPage a {
+    margin:0;
+    padding: 3px 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE MENSAGENS DE FORMULÁRIO
+---------------------------------------------------------------------------- */
+
+.boxMensagem {
+	width:auto;
+	margin:20px 0;
+	padding:15px 20px 15px 40px;
+	font:bold 13px Arial, Helvetica, sans-serif;
+}
+.boxMensagem ul {
+	margin:5px 0 5px 25px;
+	list-style-type:circle;
+}
+.boxMensagem ul li {
+	margin:0;
+	padding:3px 0;
+	font-weight:bold;
+	font-size:12px;
+	color:#333;
+}
+.boxMensagem input {
+	float:right;
+}

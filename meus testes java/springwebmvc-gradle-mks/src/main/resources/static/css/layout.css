@@ -1,0 +1,291 @@
+﻿/* XXXXXXXXXX (Layout.css) É RESPONSÁVEL APENAS PELA ESTRUTURA DO SISTEMA XXXXXXXXXX */
+
+
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DA APLICAÇÃO
+---------------------------------------------------------------------------- */
+
+html, body {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+.wrap {
+	margin:0 auto;
+	padding:0;
+	width:1000px;
+	padding-bottom:50px;
+}
+.header {
+	margin:0 auto;
+	padding:0;
+	width:1000px;
+	height:130px;
+	clear:both;
+}
+.menu { /* Vai mudar */
+	margin:0;
+	padding:0;
+	height:40px;
+	width:1000px;
+}
+
+.menuHorizontal {
+	margin:0;
+	padding:0;
+	height:26px;
+	width:1000px;}
+
+.menuVertical{
+	padding-top:5px;
+	width:200px;
+	float:left;
+	clear:left;
+}
+
+.content {
+	margin:0;
+/*	padding:30px 25px 25px 25px; */
+	padding:0px 0px 0px 0px; 
+	height:auto;
+}
+
+.FooterContent{
+	width:auto;
+	height:5px;
+	margin:0;
+	padding:0;
+	clear:both;
+}
+
+
+.textBlock { /* Vai mudar */
+	padding:15px;
+}
+
+.textBlockSingle {
+	width:auto;
+	padding:0;
+}
+.textoColunaDupla {
+	width:730px;
+	float:left;
+	padding:0 0 0 15px;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE HEADER
+---------------------------------------------------------------------------- */
+
+
+.headerBar {
+	margin:0;
+	padding:0;
+	height:30px;
+	width:1000px;
+	font-size:11px;
+}
+.headerBar ul {
+	margin:0;
+	margin-left:10px;
+}
+.headerBar ul li {
+	display:inline;
+	margin:0;
+	float:left;
+}
+
+
+/* -------------------------------------------------------------------------
+	BARRA DE INFORMAÇÕES DO USUÁRIO
+---------------------------------------------------------------------------- */
+
+
+.userInfo {
+	padding:2px 0;
+	float:left;
+}
+.userInfo li {
+	padding:0;
+}
+.userInfo .label {
+	margin:0 3px;
+	padding-top:6px;
+	font-weight:bold;
+}
+.userInfo .data {
+	margin:0;
+	padding:6px 10px 0 3px;
+}
+
+
+/* -------------------------------------------------------------------------
+	BARRA DE IDIOMAS DO SISTEMA
+---------------------------------------------------------------------------- */
+
+.language {
+	padding:2px 0;
+	float:left;
+}
+.language .label {
+	margin:0 3px;
+	padding-top:6px;
+	font-weight:bold;
+}
+.language .flag {
+	margin:0 3px;
+	padding-top:4px;
+}
+/* Eliminar esse código na implementação */
+.userInfo {
+	width:300px;
+}
+.language {
+	width:200px;
+}
+/* Eliminar esse código na implementação */
+
+
+/* -------------------------------------------------------------------------
+	BARRA DE LINKS RÁPIDOS DO SISTEMA
+---------------------------------------------------------------------------- */
+
+.shortcutLinks {
+	padding:0 10px;
+	float:right;
+}
+.shortcutLinks li {
+	padding:7px 5px 0 5px;
+}
+.shortcutLinks a {
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	font-size:10px;
+	color: #ffffff;
+}
+
+
+/* -------------------------------------------------------------------------
+	BARRA DE LINKS DAS MARCAS E VERSÃO DO SISTEMA
+---------------------------------------------------------------------------- */
+
+.logoBar {
+	width:1000px;
+	height:100px;
+}
+.applicationLogo {
+	width:410px;
+	height:95px;
+	float:left;
+	clear:left;
+}
+.petrobrasLogo {
+	margin-right:16px;
+	width:120px;
+	height:45px;
+	float:right;
+	clear:right;
+}
+.applicationVesion {
+	margin:32px 20px 0 0;
+	height:18px;
+	float:right;
+	clear:right;
+	font-size:10px;
+	font-weight:bold;
+}
+
+
+/* -------------------------------------------------------------------------
+	BARRA DE BREAD CRUMB DO SISTEMA
+---------------------------------------------------------------------------- */
+
+.breadCrumb {
+	margin-bottom:20px;
+	clear:both;
+}
+.breadCrumb a.ativo {
+	text-decoration:none;
+}
+.breadCrumb a.inativo {
+	text-decoration:none;
+	font-weight:normal;
+}
+.breadCrumb a.ativo:hover, .breadCrumb a.inativo:hover {
+	text-decoration:underline;
+}
+
+
+/* -------------------------------------------------------------------------
+	BARRA DE TÍTULO E FERRAMENTAS DE TEXTO DO SISTEMA
+---------------------------------------------------------------------------- */
+
+.titleBar {/* Vai mudar */
+	width:auto;
+	margin:15px 0 25px 0;
+	height:30px;
+}
+.titleBar h1 {
+	float:left;
+}
+.toolbarText {
+	display:block;
+	height:26px;
+}
+.toolbarText li {
+	margin:0 2px;
+	float:right;
+	display:inline;
+}
+.toolbarText li a {
+	display:block;
+}
+.defaultTextIcon, .largeTextIcon, .smallTextIcon, .printIcon, .adobeIcon {
+	width:31px;
+	height:24px;
+}
+
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE PAGINA DE ERRO DO SISTEMA
+---------------------------------------------------------------------------- */
+
+.errorMessageBox{
+	padding:20px 10px;
+	margin:20px auto;
+	width:750px;
+}
+
+.errorMessageBoxTopBottom{
+	margin:0;
+	padding:0;
+	width:750px;
+	height:20px;
+}
+
+.messageContent{
+	margin:0;
+	padding:35px 50px;
+	width:650px;
+}
+
+.messageContent p{
+	margin:20px 0;
+	font-size:12px;
+}
+
+.messageErrorTitle {
+	height:50px;
+	margin:0;
+	padding:15px 0 0 90px;
+	clear:both;
+	font-size:16px;
+	font-weight:bold;
+}

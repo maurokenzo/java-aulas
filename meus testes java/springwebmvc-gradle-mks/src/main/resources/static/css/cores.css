@@ -1,0 +1,334 @@
+/* XXXXXXXXXX (cores.css) É RESPONSÁVEL POR CONFIGURAR AS CORES DO TEMPLATE DO SISTEMA XXXXXXXXXX */
+
+	color:#555555;
+/* -------------------------------------------------------------------------
+	ESTRUTURA DA APLICAÇÃO
+---------------------------------------------------------------------------- */
+
+body {
+
+	color:#555555;
+	background-image:url(../imgs/bgs/bg_body.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-attachment:fixed;
+}
+.wrap {
+	background-color:#fff;
+}
+.header {
+	background-image:url(../imgs/bgs/header.jpg);
+}
+
+/* René, modifiquei este item: era .menu */
+.menuHorizontal {
+	background-image: url(../imgs/bgs/bg_menu.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+.content {
+	background-color:#ffffff;
+}
+
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE HEADER
+---------------------------------------------------------------------------- */
+
+.headerBar {
+	color:#696868;
+}
+.applicationVesion {
+	color:#fff;
+}
+
+.largeTextIcon {
+	background-image:url(../imgs/icones/texto_mais_off.jpg);
+}
+.largeTextIcon:hover {
+	background-image:url(../imgs/icones/texto_mais_on.jpg);
+}
+
+/* ------------------------------------------------------
+	Menu
+-------------------------------------------------------- */
+/* Menu Horizontal */
+.menuHorizontal .menu li a {
+	color: #666;
+}
+.menuHorizontal .menu ul {
+	background: #fff;
+}
+.menuHorizontal .menu ul li {
+	background: #f1f1f1;
+	border-color: #ccc #ccc #ccc #ccc;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid solid solid solid;
+}
+.menuHorizontal .menu ul li:first-child {
+	border-top:solid 1px #ccc;
+}
+.menuHorizontal .menu li.hover {
+	background:#ccc;	 /* Muda conforme a cor principal do sistema  */
+}
+.menu li.hover a,
+.menu li.hover li a,
+.menu li.hover li.hover li a,
+.menu li.hover li.hover li.hover li a,
+.menu li.hover li.hover li.hover li.hover li a { /* 5° nível de menu */
+	color:#666;
+}
+.menu li:hover a,
+.menu li.hover li.hover a,
+.menu li.hover li.hover li.hover a,
+.menu li.hover li.hover li.hover li.hover a,
+.menu li.hover li.hover li.hover li.hover li.hover a { /* 5° nível de menu */
+	color:#fff;
+}
+/* seta que sinaliza que existirá mais subitens do menu horizontal */
+.menuHorizontal .menu li.has_child {
+	background:transparent url('../imgs/seta_nivel_1_off.gif') no-repeat right center;
+}
+.menuHorizontal .menu li.has_child:hover {
+	background:#ccc url('../imgs/seta_nivel_1_on.gif') no-repeat right center;
+}
+.menuHorizontal .menu li.has_child li.has_child {
+	background:#f1f1f1 url('../imgs/seta_submenus_off.gif') no-repeat right center;
+}
+.menuHorizontal .menu li.has_child li.has_child:hover {
+	background:#ccc url('../imgs/seta_submenus_on.gif') no-repeat right center;
+}
+
+/* Menu Vertical */
+.menuVertical ul li {
+    background-color: #F3F3F3;
+    border: 1px solid #DADADA;
+}
+.menuVertical ul li a {
+    color: #6E6E6E;
+    background-color: #F3F3F3;
+}
+
+.menuVertical ul li a:hover {
+	background: #ccc; /* mouse over de todos itens da lista */
+	color:#FFF;
+	text-decoration:none;
+}
+
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE CONTEÚDO
+---------------------------------------------------------------------------- */
+
+.breadCrumb {
+	color:#555555;
+}
+.titleBar {
+	border-bottom:solid 1px #dfdfe0;
+}
+h1 {
+	background:url(../imgs/icones/setas.png) no-repeat left center;
+	color:#666;
+}
+p {
+	color:#555555;
+}
+a {
+	color:#696868;
+}
+.largeTextIcon {
+	background-image:url(../imgs/icones/texto_mais_off.jpg);
+}
+.largeTextIcon:hover {
+	background-image:url(../imgs/icones/texto_mais_on.jpg);
+}
+.defaultTextIcon {
+	background-image:url(../imgs/icones/texto_normal_off.jpg);
+}
+.defaultTextIcon:hover {
+	background-image:url(../imgs/icones/texto_normal_on.jpg);
+}
+.smallTextIcon {
+	background-image:url(../imgs/icones/texto_menos_off.jpg);
+}
+.smallTextIcon:hover {
+	background-image:url(../imgs/icones/texto_menos_on.jpg);
+}
+.printIcon {
+	background-image:url(../imgs/icones/imprimir_off.jpg);
+}
+.printIcon:hover {
+	background-image:url(../imgs/icones/imprimir_on.jpg);
+}
+.adobeIcon {
+	background-image:url(../imgs/icones/adobe_pdf_off.jpg);
+}
+.adobeIcon:hover {
+	background-image:url(../imgs/icones/adobe_pdf_on.jpg);
+}
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE FORMULÁRIO
+---------------------------------------------------------------------------- */
+.formLegend {
+	color:#ff0000;
+}
+
+fieldset {
+	border:solid 1px #CCC;
+	background-image: url(../imgs/bgs/bg_formulario.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+input, select, textarea {
+	border: 1px solid #c6c6c6;
+	color: #2E302D;
+}
+
+.headerForm {/*
+	background-color:#eeeeee;
+	border:solid 1px #d8d8d8; */
+}
+.formButton {
+	background-color:#e5e5e6;
+	color: #163b82; /* Muda conforme a cor principal do sistema  */
+}
+.formButton:hover {
+	background-color:#d4d4d4;
+}
+.formButtonAction {
+	background-color:#163b82; /* Muda conforme a cor principal do sistema  */
+	color: #fff;
+}
+.formButtonAction:hover {
+	background-color:#3361b8;
+}
+.formColunaSimples div label {
+	color:#5f5f5f;
+}
+.formErrorMessage {
+	color:#ff0000;
+}
+
+.botaoFormBusca {
+	background-image: url(../imgs/icones/icone03.png);
+	background-repeat: no-repeat;
+}
+.botaoFormInfo {
+	background-image: url(../img/icone02x.png);
+	background-repeat: no-repeat;
+}
+.formButton, .formButtonAction {
+	border:solid 1px #CCC;
+}
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE TABELA/GRID
+---------------------------------------------------------------------------- */
+
+.tableForm thead tr th {
+	color:#FFFFFF;
+	background-image:url(../imgs/bgs/tableFormThs.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color:#163b82;
+}
+.tableForm tfoot tr td {
+	background-color:#d7d7d7;
+	color:#333;
+}
+.tableForm tbody tr:hover {
+	background-color:#d7e5f0;
+	color:#333;
+}
+.bgTrOdd {
+	background-color: #f7f7f7;
+}
+.bgTrPair {
+	background-color: #eaeaea;
+}
+.tableForm tfoot tr td {
+	background-color: #FFF;
+}
+
+
+/* -------------------------------------------------------------------------
+	STRUTURA DE PAGINAÇÃO
+---------------------------------------------------------------------------- */
+
+.pagination {
+	color: #696868;
+	background-color: #FFFFFF;
+}
+ul.pagination a:hover {
+	background-color:#e5e5e6;
+	color: #163b82; /* Muda conforme a cor principal do sistema  */
+}
+
+ul.pagination .actualPage {
+    color: #FFFFFF;
+}
+ul.pagination .actualPage a {
+	background-color: #163b82; /* Muda conforme a cor principal do sistema  */
+    color: #FFFFFF;
+}
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE MENSAGENS DE FORMULÁRIO
+---------------------------------------------------------------------------- */
+
+
+.boxMensagem ul li {
+	color:#333;
+}
+
+.sucesso {
+	border:1px solid #b8d2a3;
+	color: #235013;
+	background-color: #eafbdc;
+	background-image: url(../imgs/icones/ico_sucesso.gif);
+	background-repeat: no-repeat;
+	background-position: 12px 12px;
+}
+.atencao {
+	background:#fffc9e url(../imgs/icones/ico_alerta.gif) no-repeat 12px 12px;
+	border:1px solid #d4c3a0;
+	color: #c38900;
+	background-color: #feffd8;
+}
+.erro {
+	border:1px solid #dab4ad;
+	color: #960606;
+	background-color: #fde4df;
+	background:#ffe9e9 url(../imgs/icones/ico_erro.gif) no-repeat 12px 13px;
+}
+.informacao {
+	background:#eaebeb url(../imgs/icones/ico_informacao.gif) no-repeat 12px 12px;
+	border:1px solid #D1D1D1;
+	color: #666666;
+	background-color: #EAEBEB;
+}
+.questionamento {
+	background:#e2f7fe url(../imgs/icones/ico_pergunta.gif) no-repeat 12px 12px;
+	border:1px solid #a3b2d2;
+	color: #101f5c;
+	background-color: #dce6fb;
+}
+
+
+
+/* -------------------------------------------------------------------------
+	ESTRUTURA DE PÁGINA DE ERRO
+---------------------------------------------------------------------------- */
+.messageContent{
+	background-image:url(../imgs/bgs/bg_conteudo_box.jpg);
+}
+
+.messageErrorTitle {
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image:url(../imgs/icones/Parar.gif);
+	color:#ce0a0a;	
+}

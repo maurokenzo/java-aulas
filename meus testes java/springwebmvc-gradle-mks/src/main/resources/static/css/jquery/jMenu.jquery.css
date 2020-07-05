@@ -1,0 +1,71 @@
+/* -------------------------------------------------------------------------
+	ESTRUTURA DO MENU JQUERY DA APLICAÇÃO
+---------------------------------------------------------------------------- */
+
+#jMenu {
+	display:table;
+	margin:0 auto;
+	padding:0
+}
+
+/********************/
+/** premier niveau **/
+/********************/
+#jMenu li {
+	display:table-cell;
+	/* background-color:#322f32;*/
+	margin:0;
+	//float:left;
+}
+	#jMenu li a {
+		/* padding:10px; */ padding:14px 15px 15px 10px;
+		display:block;
+		background-color: transparent;
+		color:#696868;
+		/* text-transform:uppercase; */
+		cursor:pointer;
+		font-size:12px;
+		text-decoration:none;
+
+	}
+	
+/*******************/
+/** second niveau **/
+/*******************/
+#jMenu li ul {
+	display:none;
+	position:absolute;
+	padding:0;
+	margin:0
+}
+	#jMenu li ul li {
+		background-color:#e5e5e5;
+		display:block;
+		border-bottom:1px solid #ccc;
+		padding:0
+	}
+	#jMenu li ul li.arrow {
+		background:#e5e5e5 url('../../imgs/jquery/arrow_down.png') no-repeat center center;
+		height:6px;
+		padding:0;
+		border-bottom:none;
+		padding-bottom:10px;
+		display:none;
+	}
+		#jMenu li ul li a {
+			text-decoration:none;
+			font-size:12px;
+			text-transform:none;
+			padding:7px;
+			display:block;
+			border-top:1px solid transparent;
+			border-bottom:1px solid transparent;
+		}
+		#jMenu li ul li a.isParent {
+			background:#e5e5e5 url('../../imgs/jquery/arrow_right.png') no-repeat right center;
+		}
+			#jMenu li ul li a:hover {
+				background-color:#dbdce0;
+				/* border-top:1px solid #322f32;
+				border-bottom:1px solid #322f32; */
+			}

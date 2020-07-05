@@ -1,0 +1,98 @@
+/* XXXXXXXXXX (reset.css) É RESPONSÁVEL POR RESETAR AS TAGS HTML DO SISTEMA XXXXXXXXXX */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	vertical-align:baseline;
+}
+body {
+	line-height:1;
+}
+ol, ul {
+	list-style:none;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none;
+}
+/* lembrar de redefinir o estilo de focus (CSS 2) */
+:focus {
+	outline:0;
+}
+/* lembrando que o highlight sempre insere algum tipo de borda/elemento */
+ins {
+	text-decoration:none;
+}
+del {
+	text-decoration:line-through;
+}
+/* tabelas continuam precisando de 'cellspacing="0"' no código html */
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+
+/* -------------------------------------------------------------------------
+	NOVA FORMATAÇÃO DAS TAGS HTML PARA OS TEXTOS
+---------------------------------------------------------------------------- */
+
+body, p, a, h1 {
+	font-family: verdana, Geneva, sans-serif;
+	font-weight:normal;
+}
+body, p, a {
+	font-size:12px;
+}
+p {
+	line-height: 1.7em;
+	margin-bottom:1.7em;
+	text-align:justify;
+}
+a {
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover {
+	font-weight:bold;
+	text-decoration:underline;
+}
+h1 {
+	padding-top:5px;
+	padding-left:15px;
+	padding-bottom:3px;
+	font-size:20px;
+}
+h2 {
+	font-size:16px;
+}
+h3 {
+	font-size:14px;
+}
+
+
+
+/* -------------------------------------------------------------------------
+	NOVA FORMATAÇÃO DAS TAGS HTML PARA FORMULÁRIOS
+---------------------------------------------------------------------------- */
+
+fieldset {/* Vai mudar */
+	margin:5px 0;
+	padding:10px;
+}
+label, input, select, textarea {
+	float:left;
+}
+label {
+	font-weight:bold;
+	margin-top:5px;
+}
+input, select, textarea {
+	padding:3px;
+	margin-right:5px;
+}

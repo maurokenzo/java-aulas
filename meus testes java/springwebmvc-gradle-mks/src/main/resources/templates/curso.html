@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=9" >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tutoriais do IBM Notes 9</title>
+
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="css/reset.css" /><!-- Primeiro css a ser carregado  -->
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="css/layout.css" />
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="css/basico.css" />
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="css/cores.css" />
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="css/menu.css" />
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="css/sistema.css" /><!-- Último css a ser carregado  -->
+
+    <!-- Biblioteca JQuery  -->
+    <script src="js/jquery/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery/jquery-ui-1.8.21.custom.min.js"></script>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="css/jquery/jquery-ui-1.8.21.custom.css" />
+
+    <!-- redimensionador de texto -->
+    <script type="text/javascript" src="js/jquery/jquery.jfontsize-1.0.js"></script>
+    <script type="text/javascript" src="js/jquery/fontsize.js"></script>
+
+    <!-- Arquivo centralizador de todos os scripts reutilizáveis durante o projeto -->
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+
+</head>
+
+<body>
+
+<div class="wrap">
+
+    <div class="header">
+
+        <div class="headerBar">
+
+            <ul class="userInfo">
+            </ul>
+
+            <ul class="language">
+            </ul>
+
+            <ul class="shortcutLinks">
+                <!--
+                    <li><a href="#" class="btnCreditos">Créditos</a></li><!-- chama funcao -->
+
+            </ul>
+
+        </div><!-- headerBar -->
+
+        <div class="logoBar">
+
+            <div class="applicationLogo">
+                <a href="index.htm"><img src="imgs/transparente.gif" alt="Transp" width="405" height="90" /></a>
+            </div>
+
+            <div class="petrobrasLogo">
+                <a href="http://www.petrobras.com.br/"><img src="imgs/transparente.gif" alt="Transp" width="120" height="44" /></a>
+            </div>
+
+            <div class="applicationVesion"></div>
+
+        </div><!-- LogoBar -->
+
+    </div><!-- header -->
+
+
+
+
+    <div class="menuHorizontal">
+
+        <ul class="menu clear dropdown">
+
+
+            <!--
+      <div class="container">
+        <div id="main-nav">
+          <ul>
+          -->
+
+
+            <li><a href="#">Introdução</a>
+                <ul>
+                    <li><a href="#" onClick="window.open('capturas/apresentacao/apresentacao.mp4','','width=1050, height=830,top=0,left=10')">Sobre este curso</a></li>
+                    <!--<li><a href="#" class="btnIntroducao">Sobre este curso</a></li> <!-- chama funcao -->
+                    <!--				<li><a href="#" onClick="window.open('../capturas/news/news_agenda/news_agenda.mp4','','width=1050, height=830,top=0,left=10')">Sobre este curso</a></li>
+                    -->
+
+                </ul>
+            </li>
+
+
+            <li><a href="#">Novidades do Notes 9</a>
+                <ul>
+                    <li><a href="#" onClick="window.open('../capturas/news/news_notes/news_notes.mp4','','width=1050, height=830,top=0,left=10')">Notes</a></li>
+                    <li><a href="#" onClick="window.open('../capturas/news/news_agenda/news_agenda.mp4','','width=1050, height=830,top=0,left=10')">Agenda</a></li>
+                    <li><a href="#" onClick="window.open('../capturas/news/news_pesquisar/news_pesquisar.mp4','','width=1050, height=830,top=0,left=10')">Pesquisar</a></li>
+                    <li><a href="#" onClick="window.open('../capturas/news/news_sametime/news_sametime.mp4','','width=1050, height=830,top=0,left=10')">Sametime</a></li>
+                    <li><a href="#" onClick="window.open('../capturas/news/news_discovery/news_discovery.mp4','','width=1050, height=830,top=0,left=10')">Página Descobrir</a></li>
+                    <li><a href="#">Integração com Conecte</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/news/news_conecte/news_conecte.mp4','','width=1050, height=830,top=0,left=10')">(usuários Petrobras, Transpetro, PBIO)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            <li><a href="#">Conhecendo o Notes</a>
+                <ul>
+                    <li><a href="#"  onclick="window.open('../capturas/cap_1/1_1_1_interface_navegacao2/1_1_1_interface_navegacao2.mp4','','width=1050, height=830,top=0,left=10')">Interface e Navegação</a></li>
+                    <li><a href="#">Guias Agrupadas</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_1/1_2_1_guias_agrup_config/1_2_1_guias_agrup_config.mp4','','width=1050, height=830,top=0,left=10')">Configuração</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_1/1_2_2_guias_agrup_usando/1_2_2_guias_agrup_usando.mp4','','width=1050, height=830,top=0,left=10')">Utilizando</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Janelas</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_1/1_3_1_janelas_usando/1_3_1_janelas_usando.mp4','','width=1050, height=830,top=0,left=10')">Trabalhando com Janelas</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_1/1_3_2_janelas_mostrar_miniat/1_3_2_janelas_mostrar_miniat.mp4','','width=1050, height=830,top=0,left=10')">Mostrar Miniaturas</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_1/1_3_3_janelas_salvar_estado/1_3_3_janelas_salvar_estado.mp4','','width=1050, height=830,top=0,left=10')">Salvar Estado da Janela</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" onClick="window.open('../capturas/cap_1/1_4_1_barra_acoes_usando/1_4_1_barra_acoes_usando.mp4','','width=1050, height=830,top=0,left=10')">Barra de Ações</a></li>
+                    <li><a href="#">Indicadores</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_1/1_5_1_indicadores/1_5_1_indicadores.mp4','','width=1050, height=830,top=0,left=10')">Indicadores</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_1/1_5_2_indicadores_usando/1_5_2_indicadores_usando.mp4','','width=1050, height=830,top=0,left=10')">Utilizando</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" onClick="window.open('../capturas/cap_1/1_6_1_painel_visualizacao_usando/1_6_1_painel_visualizacao_usando.mp4','','width=1050, height=830,top=0,left=10')">Painel de Visualização</a></li>
+                    <li><a href="#" onClick="window.open('../capturas/cap_1/1_7_1_icones_visao/1_7_1_icones_visao.mp4','','width=1050, height=830,top=0,left=10')">Ícones de Visão</a></li>
+                    <li><a href="#" onClick="window.open('../capturas/mais_recursos/link_hostspot/link_hostspot.mp4','','width=1050, height=830,top=0,left=10')">Criando links WEB</a></li>
+
+                    <li><a href="#">Webmail</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/mais_recursos/notes_web/notes_web.mp4','','width=1050, height=830,top=0,left=10')">Acessando Notes Web</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/mais_recursos/notes_web_sametime/notes_web_sametime.mp4','','width=1050, height=830,top=0,left=10')">Habilitando Sametime</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/mais_recursos/notes_web_msg_cript/notes_web_msg_cript.mp4','','width=1050, height=830,top=0,left=10')">Acessando Mansagens criptografadas</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Aplicações</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/mais_recursos/dip/dip.mp4','','width=1050, height=830,top=0,left=10')">Acessando DIP Eletrônico</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/mais_recursos/area_transferencia/area_transferencia.mp4','','width=1050, height=830,top=0,left=10')">Área de Transferência</a></li>
+                            <!--
+                            <li><a href="#">Área de Transferência</a>
+                                <ul>
+                                    <li><a href="#" onClick="window.open('../capturas/cap_1/1_5_1_indicadores/xxx.mp4','','width=1050, height=830,top=0,left=10')">Usando a Área de Transferência</a></li>
+                                    <li><a href="#" onClick="window.open('../capturas/cap_1/1_5_2_indicadores_usando/xxx.mp4','','width=1050, height=830,top=0,left=10')">Classificar a informação</a></li>
+                                </ul>
+                            -->
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+            <li><a href="#">Correio</a>
+                <ul>
+                    <li><a href="#">Mensagem</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_1_1_correio_mensagem_nova/2_1_1_correio_mensagem_nova.mp4','','width=1050, height=830,top=0,left=10')">Abrir o Correio - Nova Mensagem</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_1_3_correio_mensagem_anexo/2_1_3_correio_mensagem_anexo.mp4','','width=1050, height=830,top=0,left=10')">Inserir Anexo</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_1_4_correio_mensagem_menuexibi/2_1_4_correio_mensagem_menuexibi.mp4','','width=1050, height=830,top=0,left=10')">Menu Exibição</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_1_5_correio_mensagem_responder/2_1_5_correio_mensagem_responder.mp4','','width=1050, height=830,top=0,left=10')">Responder</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_1_6_correio_mensagem_encaminhar/2_1_6_correio_mensagem_encaminhar.mp4','','width=1050, height=830,top=0,left=10')">Encaminhar</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_1_7_correio_mensagem_excluir/2_1_7_correio_mensagem_excluir.mp4','','width=1050, height=830,top=0,left=10')">Excluir</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_1_8_correio_mensagem_mover/2_1_8_correio_mensagem_mover.mp4','','width=1050, height=830,top=0,left=10')">Mover</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_1_10_correio_mensagem_exc_env/2_1_10_correio_mensagem_exc_env.mp4','','width=1050, height=830,top=0,left=10')">Excluir da Pasta Enviados</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/mais_recursos/cancela_mensagem/cancela_mensagem.mp4','','width=1050, height=830,top=0,left=10')">Cancelar Mensagem</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Funções do Correio Eletrônico</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_2_1_correio_func_classifpesq/2_2_1_correio_func_classifpesq.mp4','','width=1050, height=830,top=0,left=10')">Classificar Coluna</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_2_2_correio_func_ortograf/2_2_2_correio_func_ortograf.mp4','','width=1050, height=830,top=0,left=10')">Verificar Ortografia</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_2_3_correio_func_ortograf_autom/2_2_3_correio_func_ortograf_autom.mp4','','width=1050, height=830,top=0,left=10')">Verificar Ortografia Automaticamente</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_2_4_correio_func_ppcarta/2_2_4_correio_func_ppcarta.mp4','','width=1050, height=830,top=0,left=10')">Papel de Carta</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_2_5_correio_func_ppcarta_edit_ren_exc/2_2_5_correio_func_ppcarta_edit_ren_exc.mp4','','width=1050, height=830,top=0,left=10')">Papel de Carta - Editar/Renomear </a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_2_6_correio_func_cota/2_2_6_correio_func_cota.mp4','','width=1050, height=830,top=0,left=10')">Cota do Correio</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_2_7_correio_func_assinatura/2_2_7_correio_func_assinatura.mp4','','width=1050, height=830,top=0,left=10')">Assinatura</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/mais_recursos/arquivamento_local/arquivamento_local.mp4','','width=1050, height=830,top=0,left=10')">Arquivamento LOCAL</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">Delegação</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_3_1_correio_deleg_delegando/2_3_1_correio_deleg_delegando.mp4','','width=1050, height=830,top=0,left=10')">Delegando Acesso</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_3_2_correio_deleg_edit_remov/2_3_2_correio_deleg_edit_remov.mp4','','width=1050, height=830,top=0,left=10')">Remover/Editar</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_3_3_correio_deleg_acessando/2_3_3_correio_deleg_acessando.mp4','','width=1050, height=830,top=0,left=10')">Acessando Base Delegada</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Tratamento das Mensagens</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_4_1_correio_tratmsg_acomp/2_4_1_correio_tratmsg_acomp.mp4','','width=1050, height=830,top=0,left=10')">Acompanhamento</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_4_3_correio_tratmsg_acomp_pref/2_4_3_correio_tratmsg_acomp_pref.mp4','','width=1050, height=830,top=0,left=10')">Acompanhamento - Preferências</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_4_4_correio_tratmsg_acomp_remover/2_4_4_correio_tratmsg_acomp_remover.mp4','','width=1050, height=830,top=0,left=10')">Acompanhamento - Remover</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_4_5_correio_tratmsg_ndesejadas/2_4_5_correio_tratmsg_ndesejadas.mp4','','width=1050, height=830,top=0,left=10')">Mensagem não desejada</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_4_6_correio_tratmsg_regras/2_4_6_correio_tratmsg_regras.mp4','','width=1050, height=830,top=0,left=10')">Regras</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_4_7_correio_tratmsg_regras_edit/2_4_7_correio_tratmsg_regras_edit.mp4','','width=1050, height=830,top=0,left=10')">Regras - Editar</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_4_9_correio_tratmsg_regras_ger/2_4_9_correio_tratmsg_regras_ger.mp4','','width=1050, height=830,top=0,left=10')">Regras - Gerenciamento</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_2/2_4_8_correio_tratmsg_regrarapida/2_4_8_correio_tratmsg_regrarapida.mp4','','width=1050, height=830,top=0,left=10')">Regras Rápida</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" onClick="window.open('../capturas/cap_2/2_5_1_correio_aus_escrit/2_5_1_correio_aus_escrit.mp4','','width=1050, height=830,top=0,left=10')">Ausência de Escritório</a></li>
+
+                    <!--
+                        <li><a href="#">Ausência de Escritório</a>
+                            <ul>
+                                <li><a href="#" onClick="window.open('../capturas/cap_2/2_5_1_correio_aus_escrit/2_5_1_correio_aus_escrit.mp4','','width=1050, height=830,top=0,left=10')">Definindo</a></li>
+                                <li><a href="#" onClick="window.open('../capturas/cap_2/ausencia2/index.html','','width=1050, height=830,top=0,left=10')">Avisos</a></li>
+                            </ul>
+                        </li>
+                    -->
+
+                </ul>
+            </li>
+            <li><a href="#">Agenda e À Fazer</a>
+                <ul>
+                    <li><a href="#">Agenda</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_1_agenda_abrir_criar_entrada/3_1_1_agenda_abrir_criar_entrada.mp4','','width=1050, height=830,top=0,left=10')">Como Abrir e criar entrada na Agenda</a></li>
+                            <li><a href="#">Tipos de Entrada da Agenda</a>
+                                <ul>
+                                    <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_3_agenda_reuniao/3_1_3_agenda_reuniao.mp4','','width=1050, height=830,top=0,left=10')">Reunião</a></li>
+                                    <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_4_agenda_compromisso/3_1_4_agenda_compromisso.mp4','','width=1050, height=830,top=0,left=10')">Compromisso</a></li>
+                                    <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_5_agenda_evdiainteiro/3_1_5_agenda_evdiainteiro.mp4','','width=1050, height=830,top=0,left=10')">Evento de um dia inteiro</a></li>
+                                    <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_6_agenda_dataespecial/3_1_6_agenda_dataespecial.mp4','','width=1050, height=830,top=0,left=10')">Aniversário</a></li>
+                                    <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_7_agenda_lembrete/3_1_7_agenda_lembrete.mp4','','width=1050, height=830,top=0,left=10')">Lembrete</a></li>
+                                    <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_8_agenda_anuncioevento/3_1_8_agenda_anuncioevento.mp4','','width=1050, height=830,top=0,left=10')">Anúncio de Evento</a></li>
+                                </ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_9_agenda_rec_adicionais/3_1_9_agenda_rec_adicionais.mp4','','width=1050, height=830,top=0,left=10')">Recursos Adicionais da Entrada</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_10_agenda_disponibilidade/3_1_10_agenda_disponibilidade.mp4','','width=1050, height=830,top=0,left=10')">Disponibilidade da Agenda</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_11_agenda_repeticao/3_1_11_agenda_repeticao.mp4','','width=1050, height=830,top=0,left=10')">Repetição da Entrada na Agenda</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_12_agenda_navegacao/3_1_12_agenda_navegacao.mp4','','width=1050, height=830,top=0,left=10')">Navegação na Agenda</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_13_agenda_recebimento_convite/3_1_13_agenda_recebimento_convite.mp4','','width=1050, height=830,top=0,left=10')">Recebimento do Convite de Reunião</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_14_agenda_recebimento_anuncio_evento/3_1_14_agenda_recebimento_anuncio_evento.mp4','','width=1050, height=830,top=0,left=10')">Recebimento do Anúncio de Evento</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_15_agenda_limpeza_entradas/3_1_15_agenda_limpeza_entradas.mp4','','width=1050, height=830,top=0,left=10')">Limpeza das Entradas Antigas da Agenda</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_16_agenda_preferencias/3_1_16_agenda_preferencias.mp4','','width=1050, height=830,top=0,left=10')">Preferência da Agenda e A Fazer</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_1_17_agenda_abrir_outro_usuario/3_1_17_agenda_abrir_outro_usuario.mp4','','width=1050, height=830,top=0,left=10')">Abrir Agenda de outro Usuário</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">A Fazer</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_2_1_afazer_abrir_novo/3_2_1_afazer_abrir_novo.mp4','','width=1050, height=830,top=0,left=10')">Como Abrir e criar entrada no A Fazer</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_2_3_afazer_emgrupo/3_2_3_afazer_emgrupo.mp4','','width=1050, height=830,top=0,left=10')">Criação do Item A Fazer em Grupo</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_2_4_afazer_navegador/3_2_4_afazer_navegador.mp4','','width=1050, height=830,top=0,left=10')">Navegação no A Fazer</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_2_5_afazer_recebendo/3_2_5_afazer_recebendo.mp4','','width=1050, height=830,top=0,left=10')">Recebimento de Atribuições do A Fazer</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_3/3_2_6_afazer_abrir_outrousu/3_2_6_afazer_abrir_outrousu.mp4','','width=1050, height=830,top=0,left=10')">Abrir A Fazer de outro Usuário</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Contatos</a>
+                <ul>
+                    <li><a href="#">Contatos</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_1_1_contatos_abrir/4_1_1_contatos_abrir.mp4','','width=1050, height=830,top=0,left=10')">Abrir</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_1_2_contatos_novo/4_1_2_contatos_novo.mp4','','width=1050, height=830,top=0,left=10')">Novo</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_1_3_contatos_visualizacoes/4_1_3_contatos_visualizacoes.mp4','','width=1050, height=830,top=0,left=10')">Visualizações</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_1_4_contatos_usando/4_1_4_contatos_usando.mp4','','width=1050, height=830,top=0,left=10')">Usando</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_1_5_contatos_vcard/4_1_5_contatos_vcard.mp4','','width=1050, height=830,top=0,left=10')">vCard</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_1_6_contatos_imprimir/4_1_6_contatos_imprimir.mp4','','width=1050, height=830,top=0,left=10')">Imprimir</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/mais_recursos/sincronizar_contatos/sincronizar_contatos.mp4','','width=1050, height=830,top=0,left=10')">Sincronizar Contatos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Grupos</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_2_1_grupos_novo/4_2_1_grupos_novo.mp4','','width=1050, height=830,top=0,left=10')">Novo</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_2_2_grupos_criardalista/4_2_2_grupos_criardalista.mp4','','width=1050, height=830,top=0,left=10')">Criar da Lista de destinatários</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_2_3_grupos_usando/4_2_3_grupos_usando.mp4','','width=1050, height=830,top=0,left=10')">Usando</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_2_4_grupos_sametime/4_2_4_grupos_sametime.mp4','','width=1050, height=830,top=0,left=10')">Bate-Papo(Sametime)</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Preferência</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_3_1_contatos_pref_configurar/4_3_1_contatos_pref_configurar.mp4','','width=1050, height=830,top=0,left=10')">Configurar</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_4/4_3_2_contatos_atalhooutrocontato/4_3_2_contatos_atalhooutrocontato.mp4','','width=1050, height=830,top=0,left=10')">Atalhos para Contatos Delegados</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Sametime</a>
+                <ul>
+                    <li><a href="#">Contatos</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_1_1_contatos_abrir/5_1_1_contatos_abrir.mp4','','width=1050, height=830,top=0,left=10')">Abrir</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_1_2_contatos_novo/5_1_2_contatos_novo.mp4','','width=1050, height=830,top=0,left=10')">Novo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Usando</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_2_1_usando_organizarlistas/5_2_1_usando_organizarlistas.mp4','','width=1050, height=830,top=0,left=10')">Organizar Listas</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_2_2_usando_status_cartaodevisita/5_2_2_usando_status_cartaodevisita.mp4','','width=1050, height=830,top=0,left=10')">Status e Cartão de Visita</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_2_3_usando_iniciando_batepapo/5_2_3_usando_iniciando_batepapo.mp4','','width=1050, height=830,top=0,left=10')">Iniciando Bate-Papo</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_2_4_formatandotexto_emoticons/5_2_4_formatandotexto_emoticons.mp4','','width=1050, height=830,top=0,left=10')">Formatando Texto</a></li>
+                            <!--
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/usando5/index.html','','width=1050, height=830,top=0,left=10')">Corretor Ortográfico</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/usando6/index.html','','width=1050, height=830,top=0,left=10')">Emoticons</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/usando7/index.html','','width=1050, height=830,top=0,left=10')">Hyperlink</a></li>
+                            -->
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_2_6_usando_enviararqpasta/5_2_6_usando_enviararqpasta.mp4','','width=1050, height=830,top=0,left=10')">Enviar Arquivo ou Pasta</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_2_7_usando_enviarcaptela/5_2_7_usando_enviarcaptela.mp4','','width=1050, height=830,top=0,left=10')">Enviar Captura de Tela</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_2_8_usando_batepapovarios/5_2_8_usando_batepapovarios.mp4','','width=1050, height=830,top=0,left=10')">Bate-Papo com várias pessoas</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_2_9_usando_enviarcomunicado/5_2_9_usando_enviarcomunicado.mp4','','width=1050, height=830,top=0,left=10')">Enviar Comunicado</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_2_10_usando_alterarstatus/5_2_10_usando_alterarstatus.mp4','','width=1050, height=830,top=0,left=10')">Alterar Status</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_2_11_usando_alertemeqdo/5_2_11_usando_alertemeqdo.mp4','','width=1050, height=830,top=0,left=10')">Alerte-me quando</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Preferências</a>
+                        <ul>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_3_1_preferencias_agruparjanelas/5_3_1_preferencias_agruparjanelas.mp4','','width=1050, height=830,top=0,left=10')">Agrupar Janelas</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_3_2_preferencias_trazerjanfrente/5_3_2_preferencias_trazerjanfrente.mp4','','width=1050, height=830,top=0,left=10')">Trazer Janela para frente</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_3_3_preferencias_datahora/5_3_3_preferencias_datahora.mp4','','width=1050, height=830,top=0,left=10')">Configurar Data e hora</a></li>
+                            <li><a href="#" onClick="window.open('../capturas/cap_5/5_3_4_preferencias_salvarbatepapo/5_3_4_preferencias_salvarbatepapo.mp4','','width=1050, height=830,top=0,left=10')">Salvar Bate-papo</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </div><!-- menu -->
+
+    <div class="content">
+        <!--
+        <div class="textBlock">
+        </div><!-- textoColunaDupla -->
+
+        <img src="imgs/miolo.png">
+    </div><!-- content -->
+
+</div><!-- wrap -->
+
+<div id="DialogoCreditos" title="Créditos">
+    <img src="imgs/creditos.png">
+</div>
+
+<script>
+// Creditos
+$(function(){
+$( "#DialogoCreditos" ).dialog({
+	autoOpen: false,
+	resizable: false,
+	position:['middle',115],
+	width:850,
+	height:580,	modal: false,
+	buttons: {	"Fechar": function() {$( this ).dialog( "close" ); }
+}
+});
+});
+var mostraCreditos = function(){	$( "#DialogoCreditos").dialog("open");}
+$(".btnCreditos").click(mostraCreditos);
+</script>
+
+
+<div id="Introducao" title="Introdução">
+    <img src="imgs/introducao.png">
+</div>
+
+<script>
+// Introducao
+$(function(){
+$( "#Introducao" ).dialog({
+	autoOpen: false,
+	resizable: false,
+	position:['middle',115],
+	width:920,
+	height:580,	modal: false,//fundo
+	buttons: {	"Fechar": function() {$( this ).dialog( "close" ); }
+}
+});
+});
+var mostraIntroducao = function(){	$( "#Introducao").dialog("open");}
+$(".btnIntroducao").click(mostraIntroducao);
+</script>
+
+</body>
+</html>

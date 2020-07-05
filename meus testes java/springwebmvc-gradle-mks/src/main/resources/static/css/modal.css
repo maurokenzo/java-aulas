@@ -1,0 +1,17 @@
+.boxBrowserModal {
+	/* aviso especial para estimular a utilização de navegadores de última geração */
+	float:left;
+	display:none;
+	width:515px;
+	height:302px;
+}
+/* cancelando as barras de fechamento do jquery */	
+.ui-dialog .ui-dialog-titlebar, .ui-dialog .ui-dialog-title, .ui-dialog .ui-dialog-titlebar-close { display:none; }
+.ui-dialog, .ui-dialog .ui-dialog-content, .ui-dialog .ui-dialog-buttonpane { padding:0; border:none; }
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl, .ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr,
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl, .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br{
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	-khtml-border-radius:0;
+	border-radius:0;
+}
